@@ -1,0 +1,96 @@
+.centrarElementos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 25px 25px;
+}
+
+.centrarElementos button {
+    margin: 5px 10px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: rgb(255, 0, 0);
+}
+
+.iconLock {
+    color: rgb(255, 0, 0);
+}
+
+#containerLogin{
+    background-color: rgba(255, 255, 255, 0.041) !important ;
+    border: 3px rgba(71, 7, 131, 0.24) solid;
+    margin-left: 100%;
+}
+
+body{
+    display: flex;
+    min-width: "100vh";
+    min-height: "100vh";
+    background-image: url("./assets/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 268px) and (max-width: 1268px) {
+    #containerImg{
+        display: flex;
+        flex-direction: column;
+        padding: 3vh;
+    }
+    #imgLogo{
+        height: 150px;
+       margin-left: -100px
+    }
+    #containerLogin{
+        margin-left: auto !important;
+        margin-right: auto !important;
+        min-width: 53vh !important;
+        padding-left: 8vh;
+        padding-right: 8vh;
+        border: 3px rgba(71, 7, 131, 0.589) solid;
+    }  
+}
+
+#email{
+    border: white 1px solid;
+    border-radius: 10px;
+}
+
+#password{
+    border: white 1px solid;
+    border-radius: 10px;
+}
+
+#email:hover{
+    border:none
+}
+
+#password:hover{
+    border:none
+}
+
+#email:focus{
+    border: none
+}
+
+#password:focus{
+    border: none
+}
+
+#btnOrganizacion{
+    border: white 1px solid;
+    border-radius: 5px;
+}
+
+#btnOrganizacion:hover{
+    border:none
+}
+#btnOrganizacion:focus{
+    border: none
+}
